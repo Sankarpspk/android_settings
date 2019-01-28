@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.reloaded;
+package com.android.settings.future;
 
 import android.content.Context;
 import android.support.v14.preference.SwitchPreference;

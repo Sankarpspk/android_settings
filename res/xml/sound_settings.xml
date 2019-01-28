@@ -162,7 +162,7 @@
           android:title="@string/touch_sounds_title" />
 
         <!-- Screenshot sounds -->
-        <com.android.settings.reloaded.SystemSettingSwitchPreference
+        <com.android.settings.future.SystemSettingSwitchPreference
           android:key="screenshot_sound"
           android:title="@string/screenshot_sound_title"
           android:defaultValue="true" />
@@ -196,17 +196,17 @@
         android:key="incall_vib_options"
         android:title="@string/incall_vibration_category" >
 
-        <com.android.settings.reloaded.SystemSettingSwitchPreference
+        <com.android.settings.future.SystemSettingSwitchPreference
             android:key="vibrate_on_connect"
             android:title="@string/incall_vibrate_connect_title"
             android:defaultValue="true" />
 
-        <com.android.settings.reloaded.SystemSettingSwitchPreference
+        <com.android.settings.future.SystemSettingSwitchPreference
             android:key="vibrate_on_callwaiting"
             android:title="@string/incall_vibrate_call_wait_title"
             android:defaultValue="true" />
 
-        <com.android.settings.reloaded.SystemSettingSwitchPreference
+        <com.android.settings.future.SystemSettingSwitchPreference
             android:key="vibrate_on_disconnect"
             android:title="@string/incall_vibrate_disconnect_title"
             android:defaultValue="true" />
@@ -216,7 +216,7 @@
     <PreferenceCategory
         android:title="@string/volume_rocker_music_controls_category" >
         
-        <com.android.settings.reloaded.SystemSettingSwitchPreference
+        <com.android.settings.future.SystemSettingSwitchPreference
             android:key="volume_button_music_control"
             android:title="@string/volume_rocker_music_controls_title"
             android:summary="@string/volume_rocker_music_controls_summary"
